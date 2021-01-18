@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration.PhoneRegisterActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background"
+    >
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:src="@drawable/register"
+        android:id="@+id/tv"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="260dp"
+
+        />
+
+        <EditText
+            android:layout_below="@+id/tv"
+            android:id="@+id/phone_number"
+            android:gravity="left|center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/phonenum"
+            android:drawablePadding="10dp"
+            android:hint="+919999999999"
+            android:paddingStart="20dp"
+            android:textColor="@color/purple_500"
+            android:textCursorDrawable="@color/purple_200"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/phone_Verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@+id/phone_number"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pinpassword"
+            android:drawablePadding="10dp"
+            android:hint="Verification Code"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textSize="25dp"
+            android:visibility="invisible" />
+        <ImageButton
+            android:id="@+id/phone_verification_code_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone_Verify"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/phonebutton"
+            android:textSize="20dp"
+            />
+
+        <ImageButton
+            android:id="@+id/phone_Verify_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone_verification_code_button"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/varify"
+            android:visibility="invisible" />
+
+    </RelativeLayout>

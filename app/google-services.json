@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "777222708437",
+    "firebase_url": "https://video-4ccc8-default-rtdb.firebaseio.com",
+    "project_id": "video-4ccc8",
+    "storage_bucket": "video-4ccc8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777222708437:android:e42102ac9e80bdb3ff165c",
+        "android_client_info": {
+          "package_name": "com.devender.videoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777222708437-jbkbj2t6o3c19429jgo2h7ce260aqbjm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devender.videoapp",
+            "certificate_hash": "e3fb5661c1349220be40671e144b61153a3b9b0e"
+          }
+        },
+        {
+          "client_id": "777222708437-d0m7c8a1tap47us3ogab58k5ilsepip9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSl0AxIJVbhx-eaeP-oAr3Nn11EG3p5FQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777222708437-d0m7c8a1tap47us3ogab58k5ilsepip9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
